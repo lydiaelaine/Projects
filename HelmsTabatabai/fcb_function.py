@@ -71,7 +71,7 @@ delta_phieq_ca = 0.5
 from scipy.integrate import solve_ivp #integration function for ODE system.
 import numpy as np
 
-#Initial solution vector:
+#Initial solution vector"
 
 SV_0 = np.array('[phi_elyte_0 - phi_an_0,' phi_ca_0 - phi_elyte_0)
 
@@ -103,13 +103,6 @@ class pars:
         rho_LMO = rho_LMO 
         capacity_LMO = capacity_LMO
 
-        
-def residual(t, SV):
-    dSV_dt = np.zeros_like(SV)
-    
-    
-    
-    
 # Either directly in this file, or in a separate file that you import, define: 
 #   - A residual function called 'residual'
 #   - An array 'time_span' which has [0, t_final] where t_final is the total 
