@@ -93,7 +93,7 @@ class pars:
         rho_carbon = rho_carbon 
         capacity_carbon = capacity_carbon
         
-         #Anode
+         #Cathode
         delta_phieq_ca = delta_phieq_ca
         i_o_ca = i_o_ca
         n_ca = n_ca
